@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.cabecalho {
+    display: flex;
+    height: 100px;
+    background-color: #181D31;
+    justify-content: space-around;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+   
+}
+
+.cabecalho img{
+    display: flex;
+    /* background-color: red; */
+    position: absolute;
+    height: 80px;
+    left: 13vw;
+    top: 1%;
+}
+
+
+
+.logo{
+   
+   font-size: 32px;
+   margin: 4vh 0;
+   color: #E68369;
+   justify-content: space-around;
+   text-shadow:  -3px 3px #e762416b;
+}
+
+.nav ul {
+    font-size: 1.2rem;
+    color: #ECCEAE;
+    display: flex;
+    gap: 100px;
+    margin: 4vh 0;
+}
+
+
+
+.login:hover{
+    color: #E68369;
+    background-color: #fbf6e2;
+    border-radius: 8px;
+}
+
+a:visited{
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+

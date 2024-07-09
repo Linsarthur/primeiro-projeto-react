@@ -1,0 +1,44 @@
+.card-produto {
+    background-color: #ECCDAE;
+    padding:10px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    
+    
+    
+  }
+  
+  .card-produto h4 {
+    height: 20px;
+    font-size: 16px;
+    display: flex;
+    
+  }
+
+.nome{
+    display: flex;
+}
+
+  .grifado {
+    text-decoration: line-through;
+    color: grey;
+    margin-top: 0px;
+  }
+  
+  .desconto {
+    color: green;
+
+  }
+
+  .separar{
+    background-color: #E78369;
+    display: flex;
+  }
+
+
+
+
+ 

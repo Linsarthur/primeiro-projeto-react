@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+
+
+.cards{
+  width: 300px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-filme{
+  width: 100%;
+  display: flex;
+  
+}
+
+.card2{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.capa{
+  width: 250px;
+  border-radius: 10%;
+}
+
+  

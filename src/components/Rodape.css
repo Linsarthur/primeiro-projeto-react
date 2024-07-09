@@ -1,0 +1,60 @@
+.container{
+    background-color: #181D31;
+    display: flex;
+    justify-content: space-around;
+    height: 310px;
+}
+
+.description{
+    color: #ECCDAE;
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+
+
+.description h2{
+    font-size: 32px;
+   margin: 1vh 0;
+   color: #E68369;
+   justify-content: space-around;
+   text-shadow:  -3px 3px #e762416b;
+}
+
+.redes h2{
+    font-size: 32px;
+    margin: 1vh;
+    color: #E68369;
+    justify-content: space-around;
+    text-shadow:  -3px 3px #e762416b;
+}
+
+.redes img{
+    background-color: #EACBA8;
+    width: 5vh;
+    margin-inline: 20px;
+    border-radius: 25%
+}
+
+.copy{
+    position: absolute;
+    bottom: -225px;
+}
+
+
+.linksUteis h2{
+    font-size: 32px;
+   margin: 1vh 0;
+   color: #E68369;
+   justify-content: space-around;
+   text-shadow:  -3px 3px #e762416b;
+}
+
+.linksUteis ul {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 20px;
+    color: #ECCDAE;
+
+}
