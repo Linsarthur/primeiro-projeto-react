@@ -33,7 +33,7 @@ function Cadastro() {
                     <div>
                         <label htmlFor={"dataNasc"}>Data de lascimento:</label>
                         <input type={"date"} className={"form-control"}
-                               {...register("dataNasc", )}/>
+                               {...register("dataNasc", {required:true})}/>
                     </div>
                     {errors.dataNasc && <small className={"invalid"}>Informe sua data de nascimento!</small>}
 
