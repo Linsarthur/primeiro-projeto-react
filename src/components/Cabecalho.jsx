@@ -1,26 +1,25 @@
 import "./Cabecalho.css"
+import {Link} from "react-router-dom";
 
 function Cabecalho () {
-    
+
     return (
-        <>
+        <header>
             <section className="cabecalho">
                 <img src="/pipoca.png" alt="" />
                 <h1 className="logo">Code+</h1>
-                
+
                 <div className="nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Ajuda</a></li>
-                    <li className="login"><a href="#" onClick={() => {
-                        alert("Você clicou no botão")
-                    }}>Entrar</a></li>
+                    <Link className={"nav-link"} to="/">Home</Link>
+                    <Link className={"nav-link"} to="/contato">Contato</Link>
+                    <Link className={"nav-link"} to="/cadastro">Cadastro</Link>
+                    <Link className={"nav-link"} to="/login">Login</Link>
                 </ul>
                 </div>
-            </section>   
-        
-        </>
+            </section>
+
+        </header>
 
 
     )

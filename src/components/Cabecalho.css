@@ -7,7 +7,7 @@
     justify-content: space-around;
     font-family: Nunito, sans-serif;
     font-weight: 700;
-   
+
 }
 
 .cabecalho img{
@@ -15,14 +15,14 @@
     /* background-color: red; */
     position: absolute;
     height: 80px;
-    left: 13vw;
+    left: 10vw;
     top: 1%;
 }
 
 
 
 .logo{
-   
+
    font-size: 32px;
    margin: 4vh 0;
    color: #E68369;

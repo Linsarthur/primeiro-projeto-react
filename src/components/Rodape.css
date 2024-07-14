@@ -39,7 +39,8 @@
 
 .copy{
     position: absolute;
-    bottom: -225px;
+    bottom: -400px;
+    color: #E68369;;
 }
 
 
@@ -56,5 +57,8 @@
     flex-direction: column-reverse;
     font-size: 20px;
     color: #ECCDAE;
+}
 
+.linksUteis li{
+    text-decoration: none;
 }

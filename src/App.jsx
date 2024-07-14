@@ -1,26 +1,31 @@
-import Banner from "./components/Banner";
-import Cabecalho from "./components/Cabecalho";
-import Condicional from "./components/Condicional";
-import Galeria from "./components/Galeria";
-import Rodape from "./components/Rodape";
+import Home from "./pages/Home.jsx";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Login from "./pages/Login.jsx";
+import Contato from "./pages/Contato.jsx";
+import Cadastro from "./pages/Cadastro.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import Cabecalho from "./components/Cabecalho.jsx";
 
 
+function App() {
+    return (
+        <>
+            <BrowserRouter>
+                <Cabecalho/>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/contato" element={<Contato/>}/>
+                    <Route path="/cadastro" element={<Cadastro/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+                </Routes>
 
-function App () {
-  return(
-    <>
-      <Cabecalho/>
-      <Banner/>
-      <Galeria/>
-      <div className="separar">
-      <Condicional nome="Plano mensal:" precoUnitario={59.90} desconto={0}/>
-      <Condicional nome="Plano Anual:" precoUnitario={718.8} desconto={10}/>
-      </div>
-      <Rodape />
-    </>
+
+            </BrowserRouter>
+        </>
 
 
-  )
+    )
 
 
 }
